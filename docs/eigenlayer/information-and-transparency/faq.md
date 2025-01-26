@@ -67,7 +67,7 @@ There are clear differences between EigenLayer and rehypothecation.
 
 No, EigenLayer doesn't remove the value of any hypothetical AVS tokens, but adds more value to it.
 
-Firstly, Ethereum's L2 networks serve as a greatest counterpoint to this line of logic. Despite outsourcing their network security to Ethereum, L2 tokens maintain significant value within their respective networks.
+Firstly, Ethereum's L2 networks serve as the greatest counterpoint to this line of logic. Despite outsourcing their network security to Ethereum, L2 tokens maintain significant value within their respective networks.
 
 Secondly, if an individual AVS decides to incorporate its own token for staking and network operations, EigenLayer supports [dual staking](https://www.blog.eigenlayer.xyz/dual-staking/). In this setup, an AVS can be secured by two types of assets, likely one in ETH and one in its native token.
 
@@ -91,7 +91,7 @@ Finally, building on the synergy point, as AVSs begin to serve more customers co
 
 ## LRT Related
 
-**What roles does LRTs serve?**
+**What roles do LRTs serve?**
 
 LRTs safeguard EigenLayer and AVSs from external financial risks tied to staked positions. In EigenLayer, stakers don't receive a transferable receipt post-staking. Despite this, we expect some stakers to try and financialize their positions. 
 
@@ -100,7 +100,7 @@ In the absence of LRTs, if a financialized staker's position gets liquidated, th
 This feature is especially crucial during substantial market downturns. As the price of ETH falls, so does the system's total economic security. If liquidation leads to more ETH leaving EigenLayer, it would worsen the downward spiral. LRTs can significantly mitigate this risk, thereby protecting both AVS and EigenLayer from potential financial risks related to staker positions.
 
 
-**Is there an LRT looping risk that would potentially cause potential liquidation cascade?**
+**Is there an LRT looping risk that would potentially cause a potential liquidation cascade?**
 
 With the recent Permissionless Token upgrade to the protocol, it is up to the AVSs to determine the risks of the collateral they accept for restaking.
 
